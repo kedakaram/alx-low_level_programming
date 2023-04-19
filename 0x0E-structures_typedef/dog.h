@@ -7,10 +7,9 @@
  * @age: dog's age.
  * @owner: owner's name.
  *
- * @brief Defines a structure to represent a dog.
+ * Description: Defines a structure to represent a dog.
  */
-
-typedef struct dog
+struct dog
 	{
 	char *name;
 	float age;
