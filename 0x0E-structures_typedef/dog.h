@@ -2,18 +2,20 @@
 #define DOG_H
 
 /**
- * dog structure representing a pet.
+ * struct dog - Represents a pet dog.
  * @name: dog's name.
  * @age: dog's age.
  * @owner: owner's name.
  *
  * Description: Defines a structure to represent a dog.
  */
+
 struct dog
 {
 	char *name;
 	float age;
-       	char *owner;
+	char *owner;
 };
 
 #endif /* DOG_H */
+
